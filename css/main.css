@@ -9,10 +9,16 @@
 {
 	background-color: #f1f1f1f1;
 	width: 960px;
+	height: 2000px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-top: 30px; 
 	margin: 0px auto;
+}
+
+#mainTitle {
+	font-size: 45px;
+
 }
 
 h1 {
@@ -23,7 +29,16 @@ h1 {
 
 h2 {
 	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: ;
 	font-size: 20px;
+	margin-top: 60px;
 	margin-bottom: 20px;
 }
 
@@ -37,6 +52,68 @@ p {
 	color: #696969;
     line-height: 25px;
     padding: 10px 0px 10px 10px;
+    width: 600px;
+    word-wrap:break-word;
+}
+
+#traaInfoPictures {
+	display: flex;
+	flex direction: row;
+	justify-content: space-between;
+	width: 268;
+	height: 268;
+	margin-top: 30px;
+
+}
+
+#whatWeDoPara {
+	color: #696969;
+    line-height: 25px;
+    padding: 10px 0px 10px 10px;
     width: 570px;
     word-wrap:break-word;
+}
+
+ul li {
+	list-style: circle;
+	margin-left: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #696969;
+	line-height: 35px;
+}
+
+#enviromentalismPara {
+	color: #696969;
+    line-height: 25px;
+    padding: 10px 0px 10px 0px;
+    width: 600px;
+    word-wrap:break-word;
+}
+
+#troutPara {
+	background-color:#D3D3D3;
+	color: #696969;
+    line-height: 25px;
+    padding: 10px 0px 10px 10px;
+    width: 600px;
+    word-wrap:break-word;
+}
+
+#troutPara1 {
+	color: #696969;
+    line-height: 25px;
+    padding: 10px 0px 10px 10px;
+    width: 600px;
+    word-wrap:break-word;
+}
+
+#troutPictures {
+	display: flex;
+	flex direction: row;
+	justify-content: space-between;
+	width: 268;
+	height: 268;
+	margin-top: 30px;
+
 }
