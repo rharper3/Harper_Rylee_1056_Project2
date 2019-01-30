@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+.hidden
+{
+	display: none;
+}
+
+#container
+{
+	background-color: #f1f1f1f1;
+	width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 30px; 
+	margin: 0px auto;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+#infoPara {
+	background-color:#D3D3D3;
+	color: #696969;
+    line-height: 25px;
+    padding: 10px 0px 10px 10px;
+    width: 570px;
+    word-wrap:break-word;
+}
